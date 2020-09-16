@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *m- program starting point
+ *main- program starting point
  *Return: 0
  */
 int main(void)
