@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 *main- starting point
 *Description: outputs the sizes of different datatypes
