@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - starting point
- * Description: outputs "\"programming is like building a mutilingual puzzle"
- * Return: 0
+ *main - starting point
+ *Description: outputs "\"programming is like building a mutilingual puzzle"
+ *Return: 0
  */
 int main (void)
 {
