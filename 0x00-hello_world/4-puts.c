@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
-*main - starting point
-*Description: outputs "\"programming is like building a multilingual puzzle"
-*Return: 0
-*/
-int main (void)
+ *main - starting point
+ *Description: outputs "\"programming is like building a multilingual puzzle"
+ *Return: 0
+ */
+int main(void)
 {
-puts("\"programming is like building a multilingual puzzle");
-return (0);
+	puts("\"programming is like building a multilingual puzle");
+	return (0);
 }
