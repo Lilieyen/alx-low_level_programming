@@ -2,7 +2,7 @@
 
 /**
  *main - entry point
- *Description: comb 00-99
+ *Description: comb 2
  *Return: 0
  */
 
@@ -12,6 +12,10 @@ int main(void)
 
 	while (i < 58)
 	{
+		int x = 48;
+
+		while (x < 58)
+		{
 		putchar(i);
 		putchar(x);
 		if (i == 57 && x == 57)
