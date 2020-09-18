@@ -33,9 +33,9 @@ int main(void)
 		printf("Last digit of %d is %d and is 0\n", n, lastDigit);
 		       }
 	else if (last_digit < 6 && last_digit != 0)
-		}
+	{
 			printf("Last digit of %d is %d and is less than 6\n", n, lastDigit);
-		}
+	}
 
 		return (0);
 	}
