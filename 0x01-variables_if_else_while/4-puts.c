@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - starting poiny
+ *main - starting point
  *Description: outputs "\"programming is like building a multilingual puzzle"
  *Return:0
  */
