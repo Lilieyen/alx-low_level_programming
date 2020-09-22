@@ -8,14 +8,14 @@
 
 int main(void)
 {
-	char *holberton = "Holberton";
 
-	int i = 1;
+	char *school_name = "Holberton";
+	int letters = 9;
 
-	while (holberton[i] != '\0')
+	for (letters = 9; letters <= 9; letters++)
 	{
-		_putchar(holberton[i]);
+		_putchar(school_name[letters]);
 	}
-	_putchar('\n');
+
 	return (0);
 }
