@@ -1,4 +1,12 @@
 #include "holberton.h"
+
+/**
+ *main - print Holberton
+ *Description
+ *Return: Always 0 (success)
+ *
+ */
+
 int main(void)
 {
 	char school[10] = "Holberton";
