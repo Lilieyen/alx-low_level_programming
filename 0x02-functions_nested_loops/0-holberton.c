@@ -1,21 +1,21 @@
 #include "holberton.h"
 
 /**
- *main - print Holberton
- *Description
- *Return: Always 0 (success)
+ *main - entry
+ *Description: _putchar
+ *Return: 0
  */
 
 int main(void)
 {
-char *school_name = "Holberton";
-int letters = 9;
+	char *holberton = "Holberton";
 
-for (letters = 9; letters <= 9; letters++)
-{
-	_putchar(school_name[letters]);
-}
+	int i = 1;
 
-return (0);
-
+	while (holberton[i] != '\0')
+	{
+		_putchar(holberton[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
