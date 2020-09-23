@@ -1,19 +1,19 @@
 #include "holberton.h"
 /**
- *print_last_digit - last digit
- *@a: int
+ * print_last_digit - returns last digit
+ * @d: prints last digit
  *
- *Return: last digit
+ * Return: last digit
  */
-int print_last_digit(int a)
+int print_last_digit(int d)
 
 {
-	int a;
+	int digit = d % 10;
 
-	if (a < 0)
+	if (digit < 0)
 	{
-		a = a * (-1);
+		digit = digit * (-1);
 	}
-		_putchar(a + '0');
-		return (a);
-	}
+	_putchar(digit + '0');
+	return (digit);
+}
