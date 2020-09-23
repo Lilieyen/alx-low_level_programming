@@ -8,14 +8,15 @@
 
 int main(void)
 {
-
-	char *school_name = "Holberton";
-	int letters = 9;
-
-	for (letters = 9; letters <= 9; letters++)
-	{
-		_putchar(school_name[letters]);
-	}
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
 
 	return (0);
 }
