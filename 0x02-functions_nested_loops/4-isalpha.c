@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * _isalpha - a function to see if a character is alphabetic
- *Description: argument
+ *@c: argument
  *
  * Return: 1 if a letter, else 0
  */
