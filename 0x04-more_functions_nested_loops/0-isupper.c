@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- *_isupper: function that checks for uppercase character
- *@c: uppercase character
- *Return: 1
+ *_isupper - checks for uppercase character
+ *Return: 1 on true
+ *@c: character
  */
 int _isupper(int c)
 {
@@ -14,5 +14,5 @@ int _isupper(int c)
 	printf("%c: %d\n", c, _isupper(c));
 	c = 'a';
 	printf("%c: %d\n", c, _isupper(c));
-	return (1);
+	return (0);
 }
