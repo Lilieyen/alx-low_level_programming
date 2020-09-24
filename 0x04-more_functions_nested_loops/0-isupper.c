@@ -8,11 +8,9 @@
  */
 int _isupper(int c)
 {
-	char c;
-
-	if (ch >= 'A' && ch <= 'Z')
-		printf("character is upper case letters");
-	else
-		print f("character is not upper case letters");
+	if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
 	return (0);
 }
