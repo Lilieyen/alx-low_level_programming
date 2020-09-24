@@ -10,9 +10,9 @@ int _isupper(int c)
 {
 	char c;
 
-	c = 'A';
-	printf("%c: %d\n", c, _isupper(c));
-	c = 'a';
-	printf("%c: %d\n", c, _isupper(c));
+	if (ch >= 'A' && ch <= 'Z')
+		printf("character is upper case letters");
+	else
+		print f("character is not upper case letters");
 	return (0);
 }
