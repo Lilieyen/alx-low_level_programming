@@ -2,9 +2,10 @@
 
 /**
  *print_most_numbers - print from 0 to 9
- *@i: interger
- *Return: result
+ *except 2 and 4
+ *
  */
+
 
 void print_most_numbers(void)
 {
