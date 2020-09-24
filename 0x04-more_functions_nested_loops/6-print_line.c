@@ -1,9 +1,8 @@
 #include "holberton.h"
 
 /**
- *print_line - draws a straight line in the terminal
- *@n: parameter
- *
+ *print_line - prints straight line
+ *@n: param
  */
 void print_line(int n)
 {
@@ -11,10 +10,11 @@ void print_line(int n)
 
 	if (n > 0)
 	{
-		for (i = o; i < n; i++)
+		for (i = 0; i < n; i++)
 		{
 			_putchar('_');
 		}
 	}
 	_putchar('\n');
+
 }
