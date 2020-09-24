@@ -3,8 +3,8 @@
 /**
  *print_triangle - prints a triangle
  *@size - parameter
- *Return: result
  */
+
 void print_triangle(int size)
 {
 	int hash, index;
