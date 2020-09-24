@@ -2,15 +2,14 @@
 
 /**
  *print_numbers - from 0 to 9
- *@c: number
+ *@i: interger
  *Return: result
- *
  */
 void print_numbers(void)
 {
 	int i;
 
-	for (i = 1; i <= 9; i++)
+	for (i = 0; i <= 9; i++)
 	{
 		_putchar(i);
 	}
