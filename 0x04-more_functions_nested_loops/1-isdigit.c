@@ -3,7 +3,7 @@
 /**
  *_isdigit - function that checks for a digit
  *Return: 1 on true
- *@c: digit
+ *@c: parameter
  */
 
 int _isdigit(int c)
