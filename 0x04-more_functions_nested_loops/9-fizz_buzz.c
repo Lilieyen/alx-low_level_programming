@@ -1,25 +1,28 @@
-#include "holberton.h"
-
+#include <stdio.h>
 /**
  *main - entry
- *Description: print fizzbuzz
- *Return: 0
+ *Desc: fizzbuzz
+ *Return: o
  */
-
 int main(void)
 {
-	int i;
+	int num;
 
-	for (i = 1; i <= 100; ++i)
+	for (num = 1; num <= 100; num++)
 	{
-		if (i % 3 == 0)
-			printf("Fizz");
-		if (i % 5 == 0)
-			printf("Buzz");
-		if ((i % 3 != 0) && (i % 5 != 0))
-			printf("number=%d", i);
-		printf("\n");
-	}
+		if ((num % 3) == 0 && (num % 5) == 0)
+			printf("FizzBuzz");
 
-	return (0);
-}
+		else if ((num % 3) == 0)
+			printf("Fizz");
+
+		else if ((num % 5) == 0)
+			printf("Buzz");
+
+		else
+			printf("%d", num);
+
+		if (num == 100)
+			continue;
+		printf(" ");
+	}
