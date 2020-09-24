@@ -1,24 +1,34 @@
+#include "holberton.h"
 #include <stdio.h>
+
 /**
- *main - entry
- *Desc: fizzbuzz
- *Return: o
+ *main - Fizz-Buzz
+ *
+ *Return: Always 0, always success!
  */
 int main(void)
 {
-	int a = 0, b = 1, c = 3;
+	int i;
 
-	if (a == 0)
+	for (i = 1; i < 100; i++)
 	{
-		printf("a is 0");
+		if (i % 15 == 0)
+		{
+			printf("FizzBuzz ");
+		}
+			else if (i % 5 == 0)
+			{
+				printf("Buzz ");
+			}
+			else if (i % 3 == 0)
+		{
+			printf("Fizz ");
+		}
+		else
+		{
+			print("%d ", i);
+		}
 	}
-	else if (b == 1)
-	{
-		printf("b is 1");
-	}
-	else
-	{
-		printf("None is correct");
-	}
+	printf("Buzz\n");
 	return (0);
 }
