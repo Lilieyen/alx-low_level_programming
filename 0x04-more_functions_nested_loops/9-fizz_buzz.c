@@ -1,4 +1,3 @@
-#include "holberton.h"
 #include <stdio.h>
 
 /**
@@ -26,7 +25,7 @@ int main(void)
 		}
 		else
 		{
-			print("%d ", i);
+			printf("%d ", i);
 		}
 	}
 	printf("Buzz\n");
