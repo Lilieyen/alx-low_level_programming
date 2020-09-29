@@ -2,10 +2,11 @@
 
 /**
  *swap_int - value that swaps intergers
- *@a: swap interger
- *@b: swap interger
- *
+ *@a: interger
+ *@b: interger
+ *Return: void
  */
+
 void swap_int(int *a, int *b)
 {
 	*a = 42;
