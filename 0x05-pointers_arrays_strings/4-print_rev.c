@@ -3,7 +3,7 @@
 /**
  *print_rev - print in reverse
  *@s: string
- *Return: voi
+ *Return: void
  */
 
 void print_rev(char *s)
@@ -12,10 +12,10 @@ void print_rev(char *s)
 
 	for (forward = 0; s[forward] != '\0'; forward++)
 	{
-		for (reverse = forward - 1; reverse >= s[forward - 1]; reverse--)
+	}
+		for (reverse = forward - 1; reverse >= s[forward]; reverse--)
 		{
 			putchar(s[reverse]);
 		}
-	}
-	putchar('\n');
+	_putchar('\n');
 }
