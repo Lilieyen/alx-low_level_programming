@@ -8,7 +8,8 @@
 
 void print_rev(char *s)
 {
-	int forward, reverse;
+	int forward;
+	int reverse;
 
 	for (forward = 0; s[forward] != '\0'; forward++)
 	{
