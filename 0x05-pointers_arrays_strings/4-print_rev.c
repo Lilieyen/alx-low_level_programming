@@ -8,15 +8,15 @@
 
 void print_rev(char *s)
 {
-	int forward;
-	int reverse;
+	int fwd;
+	int rev;
 
-	for (forward = 0; s[forward] != '\0'; forward++)
+	for (fwd = 0; s[fwd] != '\0'; fwd++)
 	{
 	}
-		for (reverse = forward - 1; reverse >= 0; reverse--)
+		for (rev = fwd - 1; rev >= 0; rev--)
 		{
-			_putchar(s[reverse]);
+			_putchar(s[rev]);
 		}
 	_putchar('\n');
 }
