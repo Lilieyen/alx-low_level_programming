@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
  *print_rev - print in reverse
@@ -8,15 +9,17 @@
 
 void print_rev(char *s)
 {
-	int fwd;
-	int rev;
+	int i;
+	int a;
 
-	for (fwd = 0; s[fwd] != '\0'; fwd++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
+		continue;
 	}
-		for (rev = fwd - 1; rev >= 0; rev--)
-		{
-			_putchar(s[rev]);
-		}
+	i--;
+	for (a = 0; a <= i; i--)
+	{
+		_putchar(s[i]);
+	}
 	_putchar('\n');
 }
