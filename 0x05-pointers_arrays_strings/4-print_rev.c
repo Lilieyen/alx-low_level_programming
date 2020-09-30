@@ -4,7 +4,6 @@
 /**
  *print_rev - print in reverse
  *@s: character string
- *Return: void
  */
 
 void print_rev(char *s)
