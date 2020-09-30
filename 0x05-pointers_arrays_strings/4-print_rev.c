@@ -14,9 +14,9 @@ void print_rev(char *s)
 	for (forward = 0; s[forward] != '\0'; forward++)
 	{
 	}
-		for (reverse = forward - 1; reverse >= s[forward]; reverse--)
+		for (reverse = forward - 1; reverse >= 0; reverse--)
 		{
-			putchar(s[reverse]);
+			_putchar(s[reverse]);
 		}
 	_putchar('\n');
 }
