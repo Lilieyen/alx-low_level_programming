@@ -3,7 +3,7 @@
 
 /**
  *print_rev - print in reverse
- *@s: string
+ *@s: character string
  *Return: void
  */
 
