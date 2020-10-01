@@ -2,14 +2,16 @@
 #include <stdio.h>
 
 /**
- **_strcat - concatenates two strings
+ *_strcat - concatenates two strings
  *@dest: character
  *@src: source
  *Return: 0
  */
 char *_strcat(char *dest, char *src)
 {
-	char*
+	char *dest;
+	char *src;
+
 		strncat(char *dest, const char *src, size_t n)
 	{
 		size_t dest_len = strlen(dest);
@@ -21,3 +23,4 @@ char *_strcat(char *dest, char *src)
 
 		return (dest);
 	}
+}
