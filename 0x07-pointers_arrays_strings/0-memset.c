@@ -13,13 +13,13 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	char memory[98];
 
-	memset(memory, '\0', 98);
+	_memset(memory, '\0', 98);
 	printf("%s\n", memory);
 
-	memset(memory, '0x00', 98);
+	_memset(memory, '0x00', 98);
 	printf("%s\n", memory);
 
-	memset(memory, '0x01', 98);
+	_memset(memory, '0x01', 98);
 	printf("%s\n", memory);
 
 	return (EXIT_SUCCESS);
