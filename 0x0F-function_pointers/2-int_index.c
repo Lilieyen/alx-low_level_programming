@@ -5,7 +5,7 @@
  * @array: array used
  * @size: size of the array
  * @cmp: function used to compare
- * Return:returns the index of the first element for which the cmp function does not return 0
+ * Return:returns index of first element for which cmp func doesn't return 0
  * if no element matches, return -1
  * if size <= 0, return -1
  */
