@@ -1,14 +1,15 @@
 #include "lists.h"
 
 /**
- *_strlen- Gets the length of a string
+ *_strlen - Gets the length of a string
  *@s: string
  *
- *return:Length of a string
+ *return: Length of a string
  */
 int _strlen(const char *s)
 {
 	int length = 0;
+
 	while (*s)
 	{
 		s++;
