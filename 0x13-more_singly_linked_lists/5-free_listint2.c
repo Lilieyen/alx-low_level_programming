@@ -3,6 +3,7 @@
 /**
  *free_listint2 - function that frees a list
  *@head: head
+ *Return: void
  */
 
 void free_listint2(listint_t **head)
