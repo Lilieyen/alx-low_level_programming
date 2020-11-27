@@ -1,7 +1,8 @@
-#nclude "lists.h"
+#include "lists.h"
+
 /**
  *pop_listint - remove the head of a linked list
- *@head : the head of a linked list
+ *@head : head of our linked list
  *Return: the value in the list
  */
 int pop_listint(listint_t **head)
@@ -10,7 +11,7 @@ int pop_listint(listint_t **head)
 	listint_t *t;
 
 	if (!*head)
-	return (0);
+		return (0);
 	else
 	{
 		t = *head;
