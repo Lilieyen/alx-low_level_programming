@@ -14,6 +14,5 @@ size_t dlistint_len(const dlistint_t *h)
 		i++;
 		temp = temp->next;
 	}
-	printf("%ld", i);
 	return (i);
 }
