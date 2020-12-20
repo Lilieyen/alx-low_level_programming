@@ -1,43 +1,42 @@
 #include "lists.h"
 
 /**
- *delete_dnodeint_at_index - function that delete a node.
- *@head: the head of the node.
- *@index: the index to delete.
- *Return: 1 successfull, -1 error.
+ * delete_dnodeint_at_index - Deletes a node from a dlistint_t
+ *                            at a given index.
+ * @head: A pointer to the head of the dlistint_t.
+ * @index: The index of the node to delete.
+ *
+ * Return: Upon success - 1.
+ *         Otherwise - -1.
  */
-
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
-	unsigned int i = 0;
-	dlistint_t *tm, *prevn;
+	dlistint_t *tmp = *head;
 
 	if (*head == NULL)
 		return (-1);
-	if (index == 0)
+
+	for (; index != 0; index--)
 	{
-		tm = *head;
-		*head = (*head)->next;
-		free(tm);
-		return (1);
+		if (tmp == NULL)
+			return (-1);
+		tmp = tmp->next;
 	}
+
+	if (tmp == *head)
+	{
+		*head = tmp->next;
+		if (*head != NULL)
+			(*head)->prev = NULL;
+	}
+
 	else
 	{
-		tm = (*head)->next;
-		prevn = *head;
-		while (tm)
-		{
-			if (index == i)
-			{
-				prevn->next = tm->next;
-				(tm->next)->prev = prevn;
-				free(tm);
-				return (1);
-			}
-			tm = tm->next;
-			prevn = prevn->next;
-			i++;
-		}
+		tmp->prev->next = tmp->next;
+		if (tmp->next != NULL)
+			tmp->next->prev = tmp->prev;
 	}
-	return (-1);
+
+	free(tmp);
+	return (1);
 }
